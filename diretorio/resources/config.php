@@ -20,6 +20,7 @@ return array(
         'header.php',
         'footer.php',
         'upload.php',
+        'delete.php',
         'web'
     ),
 

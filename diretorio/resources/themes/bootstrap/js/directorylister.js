@@ -26,6 +26,7 @@ $(document).ready(function() {
 
         // Set modal title value
         $('#file-info-modal .modal-title').text(name);
+        $('#file-info-modal .nome').val(name);
 
         $('#file-info .md5-hash').text('Loading...');
         $('#file-info .sha1-hash').text('Loading...');

@@ -29,7 +29,6 @@
     </head>
 
     <body>
-
         <div id="page-navbar" class="navbar navbar-default navbar-fixed-top">
             <div class="container">
 
@@ -89,9 +88,9 @@
 
             <div id="directory-list-header">
                 <div class="row">
-                    <div class="col-md-7 col-sm-6 col-xs-10">File</div>
-                    <div class="col-md-2 col-sm-2 col-xs-2 text-right">Size</div>
-                    <div class="col-md-3 col-sm-4 hidden-xs text-right">Last Modified</div>
+                    <div class="col-md-7 col-sm-6 col-xs-10">Ficheiro</div>
+                    <div class="col-md-2 col-sm-2 col-xs-2 text-right">Tamanho</div>
+                    <div class="col-md-3 col-sm-4 hidden-xs text-right">Última mod.</div>
                 </div>
             </div>
 
@@ -122,8 +121,9 @@
                         <?php if (is_file($fileInfo['file_path'])): ?>
 
                             <a href="javascript:void(0)" class="file-info-button">
-                                <i class="fa fa-info-circle"></i>
+                                <i class="fa fa-trash"></i>
                             </a>
+
 
                         <?php endif; ?>
 
@@ -145,25 +145,17 @@
                     </div>
 
                     <div class="modal-body">
-
-                        <table id="file-info" class="table table-bordered">
-                            <tbody>
-
-                                <tr>
-                                    <td class="table-title">MD5</td>
-                                    <td class="md5-hash">{{md5_sum}}</td>
-                                </tr>
-
-                                <tr>
-                                    <td class="table-title">SHA1</td>
-                                    <td class="sha1-hash">{{sha1_sum}}</td>
-                                </tr>
-
-                            </tbody>
-                        </table>
-
+                        <h3>Tem a certeza de que quer apagar este ficheiro?</h3>
                     </div>
-
+                    <div class="modal-footer">
+                        <form method="post" action="delete.php">
+                            <input type="hidden" name="nome" class="nome" value="">
+                            <button type="submit" name="apagar" class="btn btn-danger">
+                                <i class="fa fa-trash"></i>
+                                    Apagar
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
