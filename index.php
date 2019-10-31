@@ -192,32 +192,62 @@
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <?php
+                $erro = "";
+                  if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) && isset($_POST['message'])){
+                      $name = strip_tags(htmlspecialchars($_POST['name']));
+                      $email_address = strip_tags(htmlspecialchars($_POST['email']));
+                      $phone = strip_tags(htmlspecialchars($_POST['phone']));
+                      $message = strip_tags(htmlspecialchars($_POST['message']));
+
+                      include('./liga_bd.php');
+                      $sql = "INSERT INTO  contacts (name, email, phone, message) VALUES ('$name','$email_address','$phone','$message')";
+                      $res = $conn->query($sql);
+                      if($res){
+                          ?>
+                            <div class="success">
+                                Contacto enviado com successo
+                            </div>
+                        <?php
+                      }else{
+                          $error = "Erro ao enviar o contacto";
+                      }
+                      if(!empty($erro)){
+                          echo '<div class="error">
+                              '.$erro.'
+                          </div>';
+                      }
+                    ?><script>
+                        window.location.hash = '#contact';
+                    </script>
+                    <?php
+                  }
+            ?>
+          <form id="formContact" name="formContact" target="_self" method="post">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group">
-                  <input class="form-control" id="name" type="text" placeholder="Introduz o seu nome *" required="required" data-validation-required-message="Introduz o seu nome.">
+                  <input class="form-control" id="name" name="name" type="text" placeholder="Introduz o seu nome *" required="required" data-validation-required-message="Introduz o seu nome.">
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="email" type="email" placeholder="Introduz o seu email *" required="required" data-validation-required-message="Introduz o seu email.">
+                  <input class="form-control" id="email" name="email" type="email" placeholder="Introduz o seu email *" required="required" data-validation-required-message="Introduz o seu email.">
                   <p class="help-block text-danger"></p>
                 </div>
                 <div class="form-group">
-                  <input class="form-control" id="phone" type="tel" placeholder="Introduz o seu contacto *" required="required" data-validation-required-message="Introduz o seu contacto.">
+                  <input class="form-control" id="phone" name="phone" type="tel" placeholder="Introduz o seu contacto *" required="required" data-validation-required-message="Introduz o seu contacto.">
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <textarea class="form-control" id="message" placeholder="Introduz a sua mensagem *" required="required" data-validation-required-message="Introduz a sua mensagem."></textarea>
+                  <textarea class="form-control" id="message" name="message" placeholder="Introduz a sua mensagem *" required="required" data-validation-required-message="Introduz a sua mensagem."></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
-                <div id="success"></div>
-                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar Mensagem</button>
+                <button class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar Mensagem</button>
               </div>
             </div>
           </form>
@@ -441,7 +471,7 @@
 
   <!-- Contact form JavaScript -->
   <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+  <!-- <script src="js/contact_me.js"></script> -->
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>

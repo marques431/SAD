@@ -1,3 +1,22 @@
 header.masthead {
   background-image: url("../img/panel.jpg");
 }
+.warning{
+    background: #e42626;
+    border: 1px red solid;
+    color: red;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    margin:20px;
+}
+
+.success{
+    background: #26e44f;
+    border: 1px green solid;
+    color: green;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    margin:20px;
+}
