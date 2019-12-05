@@ -17,9 +17,14 @@ namespace SAD
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void WeSAVE_Load(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

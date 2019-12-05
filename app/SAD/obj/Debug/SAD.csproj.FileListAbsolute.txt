@@ -1,0 +1,72 @@
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\Database.mdf
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\Database_log.ldf
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\SAD.exe.config
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\SAD.exe
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\SAD.pdb
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\Microsoft.Build.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\System.Collections.Immutable.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\System.IO.Compression.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\cs\Microsoft.Build.resources.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\de\Microsoft.Build.resources.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\en\Microsoft.Build.resources.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\es\Microsoft.Build.resources.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\fr\Microsoft.Build.resources.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\it\Microsoft.Build.resources.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\ja\Microsoft.Build.resources.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\ko\Microsoft.Build.resources.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\pl\Microsoft.Build.resources.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\pt-BR\Microsoft.Build.resources.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\ru\Microsoft.Build.resources.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\tr\Microsoft.Build.resources.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\zh-Hans\Microsoft.Build.resources.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\bin\Debug\zh-Hant\Microsoft.Build.resources.dll
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\obj\Debug\SAD.csprojAssemblyReference.cache
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\obj\Debug\SAD.WeSAVE.resources
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\obj\Debug\SAD.Properties.Resources.resources
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\obj\Debug\SAD.csproj.GenerateResource.cache
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\obj\Debug\SAD.csproj.CoreCompileInputs.cache
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\obj\Debug\SAD.csproj.CopyComplete
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\obj\Debug\SAD.exe
+C:\Users\João\OneDrive - ISPGAYA\3ºAno\1ºSemestre\SAD\2º Milestone\SAD\SAD\obj\Debug\SAD.pdb
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\Database.mdf
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\Database_log.ldf
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\SAD.exe.config
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\SAD.exe
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\SAD.pdb
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\Microsoft.Build.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\Microsoft.Build.Framework.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\System.Collections.Immutable.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\System.IO.Compression.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\cs\Microsoft.Build.resources.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\de\Microsoft.Build.resources.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\en\Microsoft.Build.resources.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\es\Microsoft.Build.resources.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\fr\Microsoft.Build.resources.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\it\Microsoft.Build.resources.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\ja\Microsoft.Build.resources.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\ko\Microsoft.Build.resources.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\pl\Microsoft.Build.resources.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\pt-BR\Microsoft.Build.resources.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\ru\Microsoft.Build.resources.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\tr\Microsoft.Build.resources.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\zh-Hans\Microsoft.Build.resources.dll
+C:\xampp\htdocs\SAD\app\SAD\bin\Debug\zh-Hant\Microsoft.Build.resources.dll
+C:\xampp\htdocs\SAD\app\SAD\obj\Debug\SAD.csprojAssemblyReference.cache
+C:\xampp\htdocs\SAD\app\SAD\obj\Debug\SAD.Login.resources
+C:\xampp\htdocs\SAD\app\SAD\obj\Debug\SAD.Properties.Resources.resources
+C:\xampp\htdocs\SAD\app\SAD\obj\Debug\SAD.csproj.GenerateResource.cache
+C:\xampp\htdocs\SAD\app\SAD\obj\Debug\SAD.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\SAD\app\SAD\obj\Debug\SAD.csproj.CopyComplete
+C:\xampp\htdocs\SAD\app\SAD\obj\Debug\SAD.exe
+C:\xampp\htdocs\SAD\app\SAD\obj\Debug\SAD.pdb
