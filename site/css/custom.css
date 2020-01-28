@@ -24,3 +24,11 @@ header.masthead {
 .ma{
     margin: auto;
 }
+
+.carousel-inner > .item > img {
+  max-height: 250px;
+}
+
+.white{
+    color: #FFFFFF;
+}

@@ -7,7 +7,8 @@ switch ($lang){
                 "services" => "Services",
                 "team" => "Team",
                 "contacts" => "Contacts",
-                "login" => "Login"
+                "login" => "Login",
+                "app" => "Application"
             ],
             "welcome" => "Welcome to WeSAVE",
             "solutions" => "Renewable solutions",
@@ -26,6 +27,10 @@ switch ($lang){
                 "an" => "Analist",
                 "dev" => "Developer",
                 "desc" => "A skilled and experienced team able to respond to the customers needs quickly and effectively, offering 24/7 support.",
+            ],
+            "app" =>[
+                "download_txt" => "Download our app!",
+                "download" => "Download"
             ],
             "contact" => [
                 "title" => "Contact us!",
@@ -46,7 +51,8 @@ switch ($lang){
                 "services" => "Serviços",
                 "team" => "Equipa",
                 "contacts" => "Contactos",
-                "login" => "Login"
+                "login" => "Login",
+                "app" => "Aplicação"
             ],
             "welcome" => "Bem-vindo à WeSAVE",
             "solutions" => "Soluções Renováveis",
@@ -57,6 +63,10 @@ switch ($lang){
                     "title" => "Paineis Solares",
                     "desc" => "Fazemos uma simulação de poupança, para a instalação de um ou mais paineis solares, recomendando o melhor painel para a sua habitação!"
                 ],
+            ],
+            "app" =>[
+                "download_txt" => "Transfira a nossa aplicação!",
+                "download" => "Transferir"
             ],
             "team" => [
                 "title" => "A Nossa Equipa",

@@ -58,6 +58,9 @@
                         <a class="nav-link js-scroll-trigger" href="#team"><?php echo $t['menu']['team'] ?></a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#app"><?php echo $t['menu']['app'] ?></a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#contact"><?php echo $t['menu']['contacts'] ?></a>
                     </li>
                     <li class="nav-item">
@@ -169,6 +172,59 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
                     <p class="large text-muted"><?php echo $t['team']['desc'] ?></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- App -->
+    <section class="bg-dark page-section" id="app">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 white text-center">
+                    <h2 class="section-heading text-uppercase"><?php echo $t['menu']['app'] ?></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div id="carouselExampleControls" class="carousel slide col-md-12" data-ride="carousel">
+                  <div class="carousel-inner">
+                      <?php
+                      $directory = "img/app/";
+                      $files = scandir($directory);
+                      $num_files = count($files)-2;
+                      $class = "active";
+                      if($num_files > 0){
+                            for($i=1; $i<=$num_files; $i++){
+                                ?>
+                                <div class="carousel-item <?php echo $class; ?>">
+                                  <img class="d-block ma" src="<?php echo $directory.$i.'.png' ?>">
+                                </div>
+                                <?php
+                                $class="";
+                            }
+                              ?>
+                    <?php
+                      }
+                    ?>
+
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 mx-auto text-center white">
+                    <p><?php echo $t['app']['download_txt'] ?></p>
+                    <a href="app/YUMI-2.0.2.9.exe">
+                        <button class="btn btn-primary"><?php echo $t['app']['download'] ?></button>
+                    </a>
                 </div>
             </div>
         </div>
